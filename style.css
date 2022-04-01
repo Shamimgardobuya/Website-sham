@@ -1,0 +1,59 @@
+body {
+
+    background-image: url("image/kapli.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+
+}
+h1 {
+    color: white;
+    text-align: left;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav {
+
+    justify-content: space-between;
+    font-style: oblique;
+    /* float: left; */
+    display: flex;
+    padding: 2px 15px;
+    align-items: center;
+    font-size: large;
+    
+}
+.topnav ul li{
+    list-style: none;
+    text-decoration: none;
+   display: inline;
+   padding: 5px 9px;
+   position: relative;
+    color: rgb(224, 230, 203);
+   font-size: large;
+   
+}
+.topnav{
+    flex: 2;
+     text-align: right;
+     color: beige;
+     
+}
+.nav-links a{
+    color: azure;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

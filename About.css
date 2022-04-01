@@ -1,0 +1,65 @@
+body{
+    /* background-image: url("image/Wezb.jpg"); */
+    background-color: black;
+}
+h2 {
+    text-align: left;
+    color: beige;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: white;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.topnav ul li{
+    list-style: none;
+    text-decoration: none;
+   display: inline;
+   padding: 5px 9px;
+   position: relative;
+   color: antiquewhite;
+   font-size: large; 
+}
+.topnav{
+    flex: 2;
+     text-align: right;
+}
+.clip{
+    text-align: center;
+}
+table{
+    width: 1000px;
+    margin-left: 139px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    margin-top: 5px;
+    font-size: large;
+    color: rgb(252, 157, 14);
+    text-align: center;
+    background-color:blue;
+}
+th, caption{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid whitesmoke;
+    border-collapse:collapse  ;
+    
+}
+th, td{
+    padding: 12px;
+
+}
+footer{
+    background-color: black;
+    position: relative;
+    height: 25px;
+    margin-top: 20px;
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    color: azure;
+
+}
