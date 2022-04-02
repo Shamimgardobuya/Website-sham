@@ -3,7 +3,7 @@ body{
     background-color: black;
 }
 h2 {
-    text-align: left;
+    text-align: center;
     color: beige;
 }
 *{
@@ -15,16 +15,21 @@ h2 {
 }
 .topnav ul li{
     list-style: none;
+    /* margin-top: 200%; */
     text-decoration: none;
-   display: inline;
-   padding: 5px 9px;
-   position: relative;
-   color: antiquewhite;
-   font-size: large; 
+    display: inline;
+    padding: 5px 9px;
+    position: relative;
+    color: antiquewhite;
+    font-size: large; 
 }
 .topnav{
     flex: 2;
      text-align: right;
+     text-decoration: none;
+     color: rgb(228, 228, 220);
+     margin-top: 1%;
+     
 }
 .clip{
     text-align: center;
@@ -38,7 +43,7 @@ table{
     font-size: large;
     color: rgb(252, 157, 14);
     text-align: center;
-    background-color:blue;
+    background-color: rgb(5, 99, 5);
 }
 th, caption{
     text-align: center;
